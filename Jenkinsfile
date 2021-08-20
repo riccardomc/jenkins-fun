@@ -9,6 +9,7 @@ pipeline {
         stage('Example Deploy') {
             steps {
                 echo 'Deploying'
+                error("Oh nee! This is bad!")
             }
         }
     }
